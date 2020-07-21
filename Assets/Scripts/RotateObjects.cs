@@ -5,14 +5,7 @@ using UnityEngine;
 public class RotateObjects : MonoBehaviour
 {
 
-    [SerializeField]
-    private float speed = 5;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float speed = 5;
 
     // Update is called once per frame
     void Update()
