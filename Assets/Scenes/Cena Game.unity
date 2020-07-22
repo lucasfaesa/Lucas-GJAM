@@ -5991,6 +5991,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car
       objectReference: {fileID: 0}
+    - target: {fileID: 2836952905010066863, guid: 4d9221bd3555e394d9945040b92802eb,
+        type: 3}
+      propertyPath: mouseSensitivity
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 7071871238573600940, guid: 4d9221bd3555e394d9945040b92802eb,
         type: 3}
       propertyPath: m_LocalPosition.x

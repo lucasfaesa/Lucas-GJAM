@@ -13,7 +13,7 @@ public class MouseLook : MonoBehaviour
     [Header("Manually Assigned")]
 
     [SerializeField]
-    private float mouseSensitivity = 110f;
+    private float mouseSensitivity = 55f;
 
     float xRotation = 0f;
     float yRotation = 0f;
