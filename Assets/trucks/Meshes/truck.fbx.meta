@@ -1,101 +1,287 @@
 fileFormatVersion: 2
 guid: 985b2f74c9b002940af63f9c8a650562
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Body
-    100002: DrawCall_0816
-    100004: DrawCall_0817
-    100006: DrawCall_0818
-    100008: DrawCall_0819
-    100010: DrawCall_0820
-    100012: DrawCall_0821
-    100014: DrawCall_0843
-    100016: //RootNode
-    100018: DrawCall_0844
-    100020: polySurface2
-    100022: transform1
-    100024: b1
-    100026: b2
-    100028: b3
-    100030: b4
-    100032: body
-    100034: front_left
-    100036: front_right
-    400000: Body
-    400002: DrawCall_0816
-    400004: DrawCall_0817
-    400006: DrawCall_0818
-    400008: DrawCall_0819
-    400010: DrawCall_0820
-    400012: DrawCall_0821
-    400014: DrawCall_0843
-    400016: //RootNode
-    400018: DrawCall_0844
-    400020: polySurface2
-    400022: transform1
-    400024: b1
-    400026: b2
-    400028: b3
-    400030: b4
-    400032: body
-    400034: front_left
-    400036: front_right
-    2100000: af359972_dds1
-    2100002: d0706c6a_dds1
-    2100004: 3c680e30_dds1
-    2100006: Truck
-    2100008: tyres
-    2100010: body1
-    2300000: Body
-    2300002: DrawCall_0816
-    2300004: DrawCall_0817
-    2300006: DrawCall_0818
-    2300008: DrawCall_0819
-    2300010: DrawCall_0820
-    2300012: DrawCall_0821
-    2300014: DrawCall_0843
-    2300016: polySurface2
-    2300018: b1
-    2300020: b2
-    2300022: b3
-    2300024: b4
-    2300026: body
-    2300028: front_left
-    2300030: front_right
-    3300000: Body
-    3300002: DrawCall_0816
-    3300004: DrawCall_0817
-    3300006: DrawCall_0818
-    3300008: DrawCall_0819
-    3300010: DrawCall_0820
-    3300012: DrawCall_0821
-    3300014: DrawCall_0843
-    3300016: polySurface2
-    3300018: b1
-    3300020: b2
-    3300022: b3
-    3300024: b4
-    3300026: body
-    3300028: front_left
-    3300030: front_right
-    4300000: DrawCall_0843
-    4300002: DrawCall_0821
-    4300004: DrawCall_0820
-    4300006: DrawCall_0819
-    4300008: DrawCall_0818
-    4300010: DrawCall_0817
-    4300012: DrawCall_0816
-    4300014: Body
-    4300016: polySurface2
-    4300018: b3
-    4300020: b4
-    4300022: b2
-    4300024: front_right
-    4300026: b1
-    4300028: front_left
-    4300030: body
-    9500000: //RootNode
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Body
+  - first:
+      1: 100002
+    second: DrawCall_0816
+  - first:
+      1: 100004
+    second: DrawCall_0817
+  - first:
+      1: 100006
+    second: DrawCall_0818
+  - first:
+      1: 100008
+    second: DrawCall_0819
+  - first:
+      1: 100010
+    second: DrawCall_0820
+  - first:
+      1: 100012
+    second: DrawCall_0821
+  - first:
+      1: 100014
+    second: DrawCall_0843
+  - first:
+      1: 100016
+    second: //RootNode
+  - first:
+      1: 100018
+    second: DrawCall_0844
+  - first:
+      1: 100020
+    second: polySurface2
+  - first:
+      1: 100022
+    second: transform1
+  - first:
+      1: 100024
+    second: b1
+  - first:
+      1: 100026
+    second: b2
+  - first:
+      1: 100028
+    second: b3
+  - first:
+      1: 100030
+    second: b4
+  - first:
+      1: 100032
+    second: body
+  - first:
+      1: 100034
+    second: front_left
+  - first:
+      1: 100036
+    second: front_right
+  - first:
+      4: 400000
+    second: Body
+  - first:
+      4: 400002
+    second: DrawCall_0816
+  - first:
+      4: 400004
+    second: DrawCall_0817
+  - first:
+      4: 400006
+    second: DrawCall_0818
+  - first:
+      4: 400008
+    second: DrawCall_0819
+  - first:
+      4: 400010
+    second: DrawCall_0820
+  - first:
+      4: 400012
+    second: DrawCall_0821
+  - first:
+      4: 400014
+    second: DrawCall_0843
+  - first:
+      4: 400016
+    second: //RootNode
+  - first:
+      4: 400018
+    second: DrawCall_0844
+  - first:
+      4: 400020
+    second: polySurface2
+  - first:
+      4: 400022
+    second: transform1
+  - first:
+      4: 400024
+    second: b1
+  - first:
+      4: 400026
+    second: b2
+  - first:
+      4: 400028
+    second: b3
+  - first:
+      4: 400030
+    second: b4
+  - first:
+      4: 400032
+    second: body
+  - first:
+      4: 400034
+    second: front_left
+  - first:
+      4: 400036
+    second: front_right
+  - first:
+      21: 2100000
+    second: af359972_dds1
+  - first:
+      21: 2100002
+    second: d0706c6a_dds1
+  - first:
+      21: 2100004
+    second: 3c680e30_dds1
+  - first:
+      21: 2100006
+    second: Truck
+  - first:
+      21: 2100008
+    second: tyres
+  - first:
+      21: 2100010
+    second: body1
+  - first:
+      23: 2300000
+    second: Body
+  - first:
+      23: 2300002
+    second: DrawCall_0816
+  - first:
+      23: 2300004
+    second: DrawCall_0817
+  - first:
+      23: 2300006
+    second: DrawCall_0818
+  - first:
+      23: 2300008
+    second: DrawCall_0819
+  - first:
+      23: 2300010
+    second: DrawCall_0820
+  - first:
+      23: 2300012
+    second: DrawCall_0821
+  - first:
+      23: 2300014
+    second: DrawCall_0843
+  - first:
+      23: 2300016
+    second: polySurface2
+  - first:
+      23: 2300018
+    second: b1
+  - first:
+      23: 2300020
+    second: b2
+  - first:
+      23: 2300022
+    second: b3
+  - first:
+      23: 2300024
+    second: b4
+  - first:
+      23: 2300026
+    second: body
+  - first:
+      23: 2300028
+    second: front_left
+  - first:
+      23: 2300030
+    second: front_right
+  - first:
+      33: 3300000
+    second: Body
+  - first:
+      33: 3300002
+    second: DrawCall_0816
+  - first:
+      33: 3300004
+    second: DrawCall_0817
+  - first:
+      33: 3300006
+    second: DrawCall_0818
+  - first:
+      33: 3300008
+    second: DrawCall_0819
+  - first:
+      33: 3300010
+    second: DrawCall_0820
+  - first:
+      33: 3300012
+    second: DrawCall_0821
+  - first:
+      33: 3300014
+    second: DrawCall_0843
+  - first:
+      33: 3300016
+    second: polySurface2
+  - first:
+      33: 3300018
+    second: b1
+  - first:
+      33: 3300020
+    second: b2
+  - first:
+      33: 3300022
+    second: b3
+  - first:
+      33: 3300024
+    second: b4
+  - first:
+      33: 3300026
+    second: body
+  - first:
+      33: 3300028
+    second: front_left
+  - first:
+      33: 3300030
+    second: front_right
+  - first:
+      43: 4300000
+    second: DrawCall_0843
+  - first:
+      43: 4300002
+    second: DrawCall_0821
+  - first:
+      43: 4300004
+    second: DrawCall_0820
+  - first:
+      43: 4300006
+    second: DrawCall_0819
+  - first:
+      43: 4300008
+    second: DrawCall_0818
+  - first:
+      43: 4300010
+    second: DrawCall_0817
+  - first:
+      43: 4300012
+    second: DrawCall_0816
+  - first:
+      43: 4300014
+    second: Body
+  - first:
+      43: 4300016
+    second: polySurface2
+  - first:
+      43: 4300018
+    second: b3
+  - first:
+      43: 4300020
+    second: b4
+  - first:
+      43: 4300022
+    second: b2
+  - first:
+      43: 4300024
+    second: front_right
+  - first:
+      43: 4300026
+    second: b1
+  - first:
+      43: 4300028
+    second: front_left
+  - first:
+      43: 4300030
+    second: body
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -138,8 +324,10 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 3
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -147,27 +335,32 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -177,8 +370,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
