@@ -12,6 +12,6 @@ public class AudioReceiver : MonoBehaviour
     {
         audioSource = FindObjectOfType<AudioSource>();
         audioSource.UnPause();
-        audioSource.volume = 1;
+        audioSource.volume = 1f;
     }
 }
